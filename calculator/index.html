@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora js</title>
+    <link rel="icon" href="imagens/icon.png" />
+    <link rel="stylesheet" href="./Style/Style.css" />
+  </head>
+  <body>
+   <h1 id="lelo">Calculator</h1>
+    <section>
+      <div class="calculator-container">
+        <input
+          type="text"
+          id="tela"
+          value="0"
+          readonly
+          aria-label="Valor da Calculadora"
+        />
+        <button class="button" id="botaoClean">c</button>
+        <button class="button" id="botaoBack">
+          <img src="./imagens/apagar.svg" alt="apagar" id="botaoBack-img" />
+        </button>
+        <button class="button operando">÷</button>
+        <button class="button operando">x</button>
+
+        <button class="button numero">7</button>
+        <button class="button numero">8</button>
+        <button class="button numero">9</button>
+        <button class="button operando">-</button>
+
+        <button class="button numero">4</button>
+        <button class="button numero">5</button>
+        <button class="button numero">6</button>
+        <button class="button operando">+</button>
+
+        <button class="button numero">1</button>
+        <button class="button numero">2</button>
+        <button class="button numero">3</button>
+        <button class="button" id="botaoResultado">=</button>
+
+        <button class="button numero" id="botaoZero">0</button>
+        <button class="button ponto">.</button>
+      </div>
+    </section>
+    <footer>
+      
+    </footer>
+    <script src="./Script/Script.js"></script>
+  </body>
+</html>
